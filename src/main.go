@@ -12,7 +12,7 @@ type Config struct {
 }
 
 func main() {
-	file, err := os.Open("config/config.json")
+	file, err := os.Open("../config/config.json")
 	if err != nil {
 		log.Fatal(err)
 	}
